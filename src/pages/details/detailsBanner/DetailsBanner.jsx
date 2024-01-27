@@ -6,11 +6,11 @@ import dayjs from "dayjs";
 
 import "./style.scss";
 
-import ContentWrapper from "../../../components/contentWraper/ContentWraper";
-import useFetch from "../../../hooks/useFetch";
-import Genres from "../../../components/genres/Genres";
-import CircleRating from "../../../components/circleRating/CircleRating";
-import Img from "../../../components/lazyLoadingImage/img";
+import ContentWrapper from "../../../components/contentWraper/ContentWraper.jsx";
+import useFetch from "../../../hooks/useFetch.jsx";
+import Genres from "../../../components/genres/Genres.jsx";
+import CircleRating from "../../../components/circleRating/CircleRating.jsx";
+import Img from "../../../components/lazyLoadingImage/img.jsx";
 import PosterFallback from "../../../assets/no-poster.png";
 import { PlayIcon } from "./playbtn";
 const DetailsBanner = ({ video, crew }) => {

@@ -1,9 +1,9 @@
 import React,{useState , useEffect} from 'react'
 import '../style.scss'
-import ContentWrapper from '../../../components/contentWraper/ContentWraper'
-import SwitchTabs from '../../../components/switchTabs/SwitchTabs'
+import ContentWrapper from '../../../components/contentWraper/ContentWraper.jsx'
+import SwitchTabs from '../../../components/switchTabs/SwitchTabs.jsx'
 import useFetch from '../../../hooks/useFetch.jsx';
-import Carousal from '../../../components/carousal/Carousal';
+import Carousal from '../../../components/carousal/Carousal.jsx';
 const Popular = () => {
     const [endpoint,setEndpoint] = useState("movie")
     const {data,loading} = useFetch(`/${endpoint}/popular`);
