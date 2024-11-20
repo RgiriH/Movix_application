@@ -1,8 +1,26 @@
-# React + Vite
+# Movix
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**A React-based OTT application providing the latest movies and TV shows.**
 
-Currently, two official plugins are available:
+[Live Demo](https://talk-a-tive-app-3e5g.onrender.com) | [Source Code](https://github.com/RgiriH/MERN_CHAT_APP)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
+
+## Features
+- **Latest Content**: Browse through the latest movies and TV shows, with data fetched dynamically from [The Movie Database (TMDB) API](https://www.themoviedb.org/documentation/api).
+- **User-Friendly Interface**:
+  - Sleek and attractive UI for seamless navigation.
+  - Built with React and styled using modern UI libraries.
+- **Performance Optimizations**:
+  - **Lazy Loading**: Ensures faster load times by loading content only when needed.
+  - **Debouncing**: Optimized search functionality to reduce API calls and enhance user experience.
+- **State Management**:
+  - Efficiently manages application state using React Redux.
+
+---
+
+## Technologies Used
+- **Frontend**: React, React Router, Material-UI (MUI)
+- **State Management**: React Redux
+- **Data Fetching**: TMDB API
+- **Performance**: Lazy Loading, Debouncing
